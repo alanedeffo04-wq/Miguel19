@@ -10,7 +10,7 @@
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Times New Roman', Helvetica, 'Poppins', sans-serif;
             color: #030303;
-            background-color: #2a85af;
+            background-color: #a0d5ee;
             line-height: 1.6;
         }
 
@@ -23,7 +23,7 @@
         /* ===== HEADER / NAVIGATION ===== */
         header {
             background-color: #7a2d2d;
-            border-bottom: 1px solid #66a3c0;
+            border-bottom: 1px solid #16668b;
             padding: 20px 0;
             position: sticky;
             top: 0;
@@ -67,7 +67,7 @@
 
         /* ===== HERO SECTION ===== */
         .hero {
-            background-color: #bee3ee;
+            background-color: #bde3ee;
             color: #1d1d1f;
             padding: 120px 0;
             text-align: center;
@@ -98,8 +98,8 @@
 
         .cta-button {
             display: inline-block;
-            background-color: #0071e3;
-            color: rgb(168, 209, 243);
+            background-color: #0397fa;
+            color: rgb(121, 194, 212);
             padding: 14px 32px;
             border-radius: 980px;
             text-decoration: none;
@@ -109,12 +109,12 @@
         }
 
         .cta-button:hover {
-             background-color: #0a84ff; 
+             background-color: #7cc1e0; 
         }
 
         /* ===== ABOUT SECTION ===== */
         .about {
-            background-color: #ffffff;
+            background-color: #7cc1e0;
             padding: 120px 0;
         }
 
@@ -166,7 +166,7 @@
 
         /* ===== SKILLS SECTION ===== */
         .skills {
-            background-color: #f5f5f7;
+            background-color: #85d0e2;
             padding: 120px 0;
         }
 
@@ -232,7 +232,7 @@
             gap: 40px;
             align-items: center;
             padding: 40px;
-            background: #91d3e4;
+            background: #88d8eb;
             border-radius: 20px;
             transition: all 0.3s;
         }
@@ -252,7 +252,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            color: rgb(88, 181, 243);
+            color: rgb(142, 202, 241);
             font-size: 1.3rem;
             font-weight: 600;
         }
@@ -278,7 +278,7 @@
 
         .project-link {
             display: inline-block;
-            color: #0071e3;
+            color: #81b6eb;
             text-decoration: none;
             font-weight: 500;
             transition: color 0.3s;
@@ -286,12 +286,12 @@
         }
 
         .project-link:hover {
-            color: #317eca; */
+            color: #8dbdec; */
         }
 
         /* ===== CONTACT SECTION / FORM ===== */
         .contact {
-            background-color: #f5f5f7;
+            background-color: #7abbda;
             padding: 120px 0;
         }
 
@@ -336,7 +336,7 @@
 
         .form-group input:focus,
         .form-group textarea:focus {
-           outline: none; border-color: #0071e3; 
+           outline: none; border-color: #51bad4; 
         }
 
         .form-group textarea {
@@ -345,7 +345,7 @@
         }
 
         .submit-button {
-            background-color: #0071e3;
+            background-color: #50b5ce;
             color: white;
             padding: 14px;
             border: none;
@@ -358,12 +358,12 @@
         }
 
         .submit-button:hover {
-           background-color: #0a84ff; 
+           background-color: #8adee0; 
         }
 
         /* ===== FOOTER ===== */
         footer {
-            background-color: #f5f5f7;
+            background-color: #bbe7eb;
             color: #6f6f74;
             padding: 60px 0;
             text-align: center;
@@ -398,7 +398,7 @@
         }
 
         .social-links a {
-            color: #6f6f74;
+            color: #0a0a0a;
             text-decoration: none;
             font-size: 1.2rem;
             transition: color 0.3s;
