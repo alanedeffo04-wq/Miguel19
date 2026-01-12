@@ -10,7 +10,7 @@
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Times New Roman', Helvetica, 'Poppins', sans-serif;
             color: #1d1d1f;
-            background-color: #48aad8;
+            background-color: #2a85af;
             line-height: 1.6;
         }
 
@@ -29,6 +29,7 @@
             top: 0;
             z-index: 100;
             backdrop-filter: blur(20px);
+            background-image: url(https://i.pinimg.com/736x/dd/aa/3d/ddaa3dd4674aadbd26136d0183ba497f.jpg);
             background-color: rgba(255, 255, 255, 0.8);
         }
 
