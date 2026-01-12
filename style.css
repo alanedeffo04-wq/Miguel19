@@ -61,7 +61,7 @@
         }
 
         .nav-links a:hover {
-            /* TODO MARDI CSS : Ajouter opacity: 0.6; */
+             opacity: 0.6; */
         }
 
         /* ===== HERO SECTION ===== */
@@ -108,7 +108,7 @@
         }
 
         .cta-button:hover {
-            /* TODO MARDI CSS : Ajouter background-color: #0a84ff; */
+             background-color: #0a84ff; */
         }
 
         /* ===== ABOUT SECTION ===== */
@@ -134,7 +134,7 @@
 
         .about-image {
             flex: 1;
-            /* TODO MARDI CSS : Ajouter min-height: 400px; */
+             min-height: 400px; */
         }
 
         .about-image img {
@@ -189,7 +189,7 @@
         }
 
         .skill-card:hover {
-            /* TODO MARDI CSS : Ajouter transform: translateY(-8px); */
+             transform: translateY(-8px); */
         }
 
         .skill-icon {
@@ -236,7 +236,7 @@
         }
 
         .project-card:hover {
-            /* TODO MARDI CSS : Ajouter transform: translateY(-4px); */
+             transform: translateY(-4px); */
         }
 
         .project-card:nth-child(2) {
@@ -284,7 +284,7 @@
         }
 
         .project-link:hover {
-            /* TODO MARDI CSS : Ajouter color: #0a84ff; */
+            color: #0a84ff; */
         }
 
         /* ===== CONTACT SECTION / FORM ===== */
@@ -334,7 +334,7 @@
 
         .form-group input:focus,
         .form-group textarea:focus {
-            /* TODO MARDI CSS : Ajouter outline: none; border-color: #0071e3; */
+           outline: none; border-color: #0071e3; */
         }
 
         .form-group textarea {
@@ -356,7 +356,7 @@
         }
 
         .submit-button:hover {
-            /* TODO MARDI CSS : Ajouter background-color: #0a84ff; */
+           background-color: #0a84ff; */
         }
 
         /* ===== FOOTER ===== */
@@ -403,7 +403,7 @@
         }
 
         .social-links a:hover {
-            /* TODO MARDI CSS : Ajouter color: #1d1d1f; */
+             color: #1d1d1f; */
         }
 
         .footer-bottom {
