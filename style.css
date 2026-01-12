@@ -9,7 +9,7 @@
         /* ===== STYLES GLOBAUX (Design Apple) ===== */
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Times New Roman', Helvetica, 'Poppins', sans-serif;
-            color: #1d1d1f;
+            color: #030303;
             background-color: #2a85af;
             line-height: 1.6;
         }
@@ -23,7 +23,7 @@
         /* ===== HEADER / NAVIGATION ===== */
         header {
             background-color: #7a2d2d;
-            border-bottom: 1px solid #e5e5e7;
+            border-bottom: 1px solid #66a3c0;
             padding: 20px 0;
             position: sticky;
             top: 0;
@@ -67,7 +67,7 @@
 
         /* ===== HERO SECTION ===== */
         .hero {
-            background-color: #ffffff;
+            background-color: #bee3ee;
             color: #1d1d1f;
             padding: 120px 0;
             text-align: center;
@@ -99,7 +99,7 @@
         .cta-button {
             display: inline-block;
             background-color: #0071e3;
-            color: white;
+            color: rgb(168, 209, 243);
             padding: 14px 32px;
             border-radius: 980px;
             text-decoration: none;
@@ -109,7 +109,7 @@
         }
 
         .cta-button:hover {
-             background-color: #0a84ff; */
+             background-color: #0a84ff; 
         }
 
         /* ===== ABOUT SECTION ===== */
@@ -135,7 +135,7 @@
 
         .about-image {
             flex: 1;
-             min-height: 400px; */
+             min-height: 400px; 
         }
 
         .about-image img {
@@ -180,7 +180,7 @@
         }
 
         .skill-card {
-            background: rgb(213, 226, 236);
+            background: rgb(148, 192, 226);
             padding: 40px;
             border-radius: 20px;
             text-align: center;
@@ -190,7 +190,7 @@
         }
 
         .skill-card:hover {
-             transform: translateY(-8px); */
+             transform: translateY(-8px); 
         }
 
         .skill-icon {
@@ -214,7 +214,8 @@
 
         /* ===== PROJECTS SECTION ===== */
         .projects {
-            background-color: #ffffff;
+            background-color: #f1f1f1;
+            background-image: url(https://i.pinimg.com/736x/f4/9c/28/f49c2822d204faf3a2c0bb40122d5db6.jpg);
             padding: 120px 0;
         }
 
@@ -231,7 +232,7 @@
             gap: 40px;
             align-items: center;
             padding: 40px;
-            background: #f5f5f7;
+            background: #91d3e4;
             border-radius: 20px;
             transition: all 0.3s;
         }
@@ -335,7 +336,7 @@
 
         .form-group input:focus,
         .form-group textarea:focus {
-           outline: none; border-color: #0071e3; */
+           outline: none; border-color: #0071e3; 
         }
 
         .form-group textarea {
@@ -357,7 +358,7 @@
         }
 
         .submit-button:hover {
-           background-color: #0a84ff; */
+           background-color: #0a84ff; 
         }
 
         /* ===== FOOTER ===== */
@@ -420,22 +421,22 @@
         @media (max-width: 768px) {
             /* TODO MARDI CSS : Navigation - passer à flex-direction: column; gap: 20px; */
             .nav-links {
-                flex-direction: column; gap: 20px; */
+                flex-direction: column; gap: 20px; 
             }
 
-             Hero - réduire h1 à 2.5rem */
+             Hero - réduire h1 à 2.5rem 
             .hero h1 {
-                 font-size: 2.5rem; padding: 40px 0; */
+                 font-size: 2.5rem; padding: 40px 0; 
             }
 
             /* TODO MARDI CSS : About - passer en colonne */
             .about-content {
-                 flex-direction: column; gap: 40px; */
+                 flex-direction: column; gap: 40px; 
             }
 
             /* TODO MARDI CSS : Projects - adapter pour mobile */
             .project-card {
-                flex-direction: column !important; gap: 20px; */
+                flex-direction: column !important; gap: 20px; 
             }
 
             .project-image {
@@ -444,7 +445,7 @@
 
             /* TODO MARDI CSS : Section padding réduit */
             .about, .skills, .projects, .contact {
-                 padding: 80px 0; */
+                 padding: 80px 0; 
             }
         }
 
