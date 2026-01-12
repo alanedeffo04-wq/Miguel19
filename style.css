@@ -10,7 +10,7 @@
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Times New Roman', Helvetica, 'Poppins', sans-serif;
             color: #1d1d1f;
-            background-color: #bdafaf;
+            background-color: #48aad8;
             line-height: 1.6;
         }
 
@@ -22,7 +22,7 @@
 
         /* ===== HEADER / NAVIGATION ===== */
         header {
-            background-color: #ffffff;
+            background-color: #7a2d2d;
             border-bottom: 1px solid #e5e5e7;
             padding: 20px 0;
             position: sticky;
@@ -284,7 +284,7 @@
         }
 
         .project-link:hover {
-            color: #0a84ff; */
+            color: #317eca; */
         }
 
         /* ===== CONTACT SECTION / FORM ===== */
@@ -419,22 +419,22 @@
         @media (max-width: 768px) {
             /* TODO MARDI CSS : Navigation - passer à flex-direction: column; gap: 20px; */
             .nav-links {
-                /* TODO MARDI CSS : Ajouter flex-direction: column; gap: 20px; */
+                flex-direction: column; gap: 20px; */
             }
 
             /* TODO MARDI CSS : Hero - réduire h1 à 2.5rem */
             .hero h1 {
-                /* TODO MARDI CSS : Ajouter font-size: 2.5rem; padding: 40px 0; */
+                 font-size: 2.5rem; padding: 40px 0; */
             }
 
             /* TODO MARDI CSS : About - passer en colonne */
             .about-content {
-                /* TODO MARDI CSS : Ajouter flex-direction: column; gap: 40px; */
+                 flex-direction: column; gap: 40px; */
             }
 
             /* TODO MARDI CSS : Projects - adapter pour mobile */
             .project-card {
-                /* TODO MARDI CSS : Ajouter flex-direction: column !important; gap: 20px; */
+                flex-direction: column !important; gap: 20px; */
             }
 
             .project-image {
